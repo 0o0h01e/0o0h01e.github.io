@@ -17,19 +17,6 @@ h2 {
     padding: 20px;
 }
 
-.loader{
-    margin: 0 0 2em;
-    height: 100%;
-    width: 20%;
-    text-align: center;
-    padding: 1em;
-    margin: 0 auto 1em;
-    /* display: inline-block; */
-    /* vertical-align: middle; */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
 .content {
     height: calc(90% - 40px);
@@ -65,4 +52,37 @@ svg rect {
 
 .hidden {
     display: none;
+}
+
+/* loading */
+#loading{
+    margin: 0 0 2em;
+    height: 100%;
+    width: 20%;
+    text-align: center;
+    padding: 1em;
+    margin: 0 auto 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sp-loadbar {
+    width: 50px;
+	height: 18px;
+	border: 1px #000 solid;
+	border-radius: 4px;
+	background: linear-gradient(-60deg, transparent 0%, transparent 50%, #000 50%, #000 75%, transparent 75%, transparent);
+	background-size: 20px 30px;
+	background-position: 0px 0px;
+	-webkit-animation: spLoadBar 0.8s infinite linear;
+	animation: spLoadBar 0.8s infinite linear;
+}
+@-webkit-keyframes spLoadBar {
+    from { background-position: 0px 0px; }
+	to { background-position: -20px 0px; }
+}
+@keyframes spLoadBar {
+	from { background-position: 0px 0px; }
+	to { background-position: -20px 0px; }
 }
