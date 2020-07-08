@@ -32,29 +32,31 @@ h2 {
 }
 
 .content {
-    /* display: flex; */
-    height: calc(95% - 40px);
+    height: calc(90% - 40px);
 }
 
 .book {
-    /* flex: 2; */
+    height: 80%;
     text-align: center;
 }
 
 .color {
-    /* flex: 1; */
+    height: 20%;
     text-align: center;
-    margin-top: 50px;
 }
 
 img {
-    height: 500px;
-    width: 350px;
+    height: 90%;
+    width: 320px;
 }
 
 .name {
     display: block;
     margin-top: 20px;;
+}
+
+svg {
+    margin-top: 20px;
 }
 
 svg rect {
