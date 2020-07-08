@@ -17,6 +17,20 @@ h2 {
     padding: 20px;
 }
 
+.loader{
+    margin: 0 0 2em;
+    height: 100%;
+    width: 20%;
+    text-align: center;
+    padding: 1em;
+    margin: 0 auto 1em;
+    /* display: inline-block; */
+    /* vertical-align: middle; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .content {
     /* display: flex; */
     height: calc(95% - 40px);
@@ -45,4 +59,8 @@ img {
 
 svg rect {
     cursor: pointer;
+}
+
+.hidden {
+    display: none;
 }

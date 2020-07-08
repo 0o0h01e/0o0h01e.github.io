@@ -33,58 +33,73 @@ const books = [
     }
 ];
 
+const queue = new createjs.LoadQueue(false);
 
-const svg = document.querySelector('svg');
-
-let colorNums = 0;
+const images = [];
 for (let i = 0; i < books.length; i++) {
-    for (let j = 0; j < books[i].color.length; j++) {
-        colorNums++;        
-    }
+    images.push(books[i].name + '.jpg');    
 }
+queue.loadManifest(images, true, './assets/images/');
 
-const width = 350 / colorNums;
-const height = 80;
+//监听完成事件
+queue.on("complete", function(){
+    console.log("加载完成");
 
-// 绘制色谱图中色块
-function draw(node) {
-    const { x, y, color, name } = node;
-    const rect = document.createElementNS('http://www.w3.org/2000/svg', 'rect');
-    rect.setAttribute('x', x);
-    rect.setAttribute('y', y);
-    rect.setAttribute('height', 100);
-    rect.setAttribute('width', width);
-    rect.setAttribute('fill', color);
-    rect.setAttribute('data-name', name); 
-
-    svg.append(rect);
-}
-
-let index = 0;
-for (let i = 0; i < books.length; i++) {
-    for (let j = 0; j < books[i].color.length; j++) {        
-        draw({
-            name: books[i].name,
-            x: index * width,
-            y: 0,
-            color: books[i].color[j]
-        })
-
-        index++;
+    document.getElementById('loading').remove();
+    document.getElementsByClassName('container')[0].className = 'container';
+    
+    const svg = document.querySelector('svg');
+    
+    let colorNums = 0;
+    for (let i = 0; i < books.length; i++) {
+        for (let j = 0; j < books[i].color.length; j++) {
+            colorNums++;        
+        }
     }
-}
-
-svg.addEventListener('click', evt => {
-    const target = evt.target;
-    if (target) {
-        const name = target.getAttribute('data-name');
-        updateBook(name);
+    
+    const width = 350 / colorNums;
+    const height = 80;
+    
+    // 绘制色谱图中色块
+    function draw(node) {
+        const { x, y, color, name } = node;
+        const rect = document.createElementNS('http://www.w3.org/2000/svg', 'rect');
+        rect.setAttribute('x', x);
+        rect.setAttribute('y', y);
+        rect.setAttribute('height', 100);
+        rect.setAttribute('width', width);
+        rect.setAttribute('fill', color);
+        rect.setAttribute('data-name', name); 
+        
+        svg.append(rect);
     }
+    
+    let index = 0;
+    for (let i = 0; i < books.length; i++) {
+        for (let j = 0; j < books[i].color.length; j++) {        
+            draw({
+                name: books[i].name,
+                x: index * width,
+                y: 0,
+                color: books[i].color[j]
+            })
+            
+            index++;
+        }
+    }
+    
+    svg.addEventListener('click', evt => {
+        const target = evt.target;
+        if (target) {
+            const name = target.getAttribute('data-name');
+            updateBook(name);
+        }
+    });
+    
+    function updateBook(name) {
+        document.getElementsByClassName('cover')[0].setAttribute('src', './assets/images/' + name + '.jpg');   
+        document.getElementsByClassName('name')[0].innerHTML = '《' + name + '》';    
+    }
+    
+    updateBook(books[0].name); 
 });
-
-function updateBook(name) {
-    document.getElementsByClassName('cover')[0].setAttribute('src', './assets/images/' + name + '.jpg');   
-    document.getElementsByClassName('name')[0].innerHTML = '《' + name + '》';    
-}
-
-updateBook(books[0].name);
