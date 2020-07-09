@@ -39,7 +39,7 @@ const images = [];
 for (let i = 0; i < books.length; i++) {
     images.push(books[i].name + '.jpg');    
 }
-queue.loadManifest(images, true, './assets/images/');
+queue.loadManifest(images, true, '../assets/images/');
 
 //监听完成事件
 queue.on("complete", function(){
@@ -97,7 +97,7 @@ queue.on("complete", function(){
     });
     
     function updateBook(name) {
-        document.getElementsByClassName('cover')[0].setAttribute('src', './assets/images/' + name + '.jpg');   
+        document.getElementsByClassName('cover')[0].setAttribute('src', '../assets/images/' + name + '.jpg');   
         document.getElementsByClassName('name')[0].innerHTML = '《' + name + '》';    
     }
     
