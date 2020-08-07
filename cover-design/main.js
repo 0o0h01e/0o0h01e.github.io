@@ -1,12 +1,29 @@
-$(document).ready(() => {
+// $(document).ready(() => {
     
+  
+// })
+
+const queue = new createjs.LoadQueue(false);
+
+const images = [];
+for (let i = 1; i <= 10 ; i++) {
+    images.push('书籍设计' + i + '.jpg');    
+}
+queue.loadManifest(images, true, './assets/');
+
+queue.on("complete", function(){
+    // document.getElementById('loading').remove();
+    $('#loading').remove();
+    // document.getElementsByClassName('container')[0].className = 'container';
+    $('.container').css('display', 'block');
+
     // 点击上滑Icon
     $('#arrowIcon img').on('click', (e) => {
-        // 封面上滑
-        $('#cover').css('display', 'none');
-        $('#catalog').css('display', 'flex');
-        $('#catalog').css('height', '100%');
-        $('#arrowIcon').css('display', 'none');
+    // 封面上滑
+    $('#cover').css('display', 'none');
+    $('#catalog').css('display', 'flex');
+    $('#catalog').css('height', '100%');
+    $('#arrowIcon').css('display', 'none');
         
     })
     
