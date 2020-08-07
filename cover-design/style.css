@@ -5,7 +5,8 @@ html, body {
 
 .container {
 	height: 100%;
-	width: 64vh;
+	/* width: 64vh; */
+	width: 100%;
 	margin: 0 auto;
 	position: relative;
 	overflow: hidden;
