@@ -186,7 +186,6 @@ html, body {
 
 #content #scroller {
 	height: 100%;
-	/* overflow-y: scroll; */
 }
 
 #content #scroller #showContainer {
@@ -200,9 +199,23 @@ html, body {
 }
 
 .dragTip {
-	text-align: center;
-	padding: 10px 0;
+	height: 50px;
 	display: none;
+	/* text-align: center; */
+	position: relative;
+}
+#dragUpTip p{
+	position: absolute;
+	bottom: 0;
+	margin: 0 auto;
+	width: 100%;
+	text-align: center;
+}
+#dragDownTip p {
+	position: absolute;
+	margin: 0 auto;
+	width: 100%;
+	text-align: center;
 }
 
 

@@ -53,7 +53,7 @@ queue.on("complete", function(){
         
         $('#catalog').css('display', 'none');
         $('#content img').attr('src', './assets/' + '书籍设计' + index + '.jpg');
-        $('#content').scrollTop(0);
+        $('#showContainer').scrollTop(0);
         $('#content').css('display', 'block');
         
     })
@@ -76,26 +76,24 @@ queue.on("complete", function(){
     
     let dragY;
     new iScroll('content', {
+        useTransition: true,
         onRefresh: () => {},
         onScrollMove: function() {
-            // console.log("Y[" + this.y + "],maxScrollY[" + this.maxScrollY + "],minScrollY[" + this.minScrollY + "],scrollerH[" + this.scrollerH + "],wrapperH[" + this.wrapperH + "]");
             console.log(this.y);
 
-            if (this.y <= -20) {
-                console.log('小于-20');
+            if (this.y <= -50) {
                 $('#dragUpTip').css('display', 'block');
-            } else if (this.y < 0 && this.y > -20 ) {
-                console.log('大于-20');
+            } else if (this.y < 0 && this.y > -50 ) {
                 $('#dragUpTip').css('display', 'none');
             }
 
             dragY = this.y;
         },
         onScrollEnd: () => {
-            if (dragY <= -20) {
+            if (dragY <= -50) {
                 index = index < 10 ? index + 1 : index;
                 $('#content img').attr('src', './assets/' + '书籍设计' + index + '.jpg');
-                $('#content').scrollTop(0);
+                $('#showContainer').scrollTop(0);
                 $('#dragUpTip').css('display', 'none');
             }
         }
