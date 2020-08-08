@@ -1,0 +1,525 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 750 1334" style="enable-background:new 0 0 750 1334;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#F0E3C1;}
+	.st1{fill:#CED0B3;}
+	.st2{fill:#A8A992;}
+	.st3{fill:#6D9A8A;}
+	.st4{fill:#FCB6AE;}
+	.st5{fill:#EFC879;}
+	.st6{fill:#EEEEEE;}
+	.st7{fill:#FFDAD6;}
+	.st8{fill:#F3D5A1;}
+	.st9{fill:#FFD6A5;}
+	.st10{fill:#92BBAB;}
+	.st11{fill:#ADD2C4;}
+	.st12{fill:#DB6E09;}
+	.st13{fill:#C05905;}
+	.st14{fill:url(#SVGID_1_);}
+	.st15{fill:#F1C77D;}
+	.st16{fill:#DCAB5F;}
+	.st17{fill:#E2EBCC;}
+	.st18{fill:#D7DFC1;}
+	.st19{fill:#E7F0D0;}
+	.st20{fill:#FCFCF1;}
+	.st21{fill:#E26B01;}
+	.st22{fill:#EEA47C;}
+	.st23{fill:#84ABC8;}
+	.st24{fill:#FFE4D1;}
+	.st25{fill:#FFE5E5;}
+	.st26{fill:#FFFCE8;}
+	.st27{fill:#F6D9CA;}
+	.st28{fill:#EEEAFF;}
+	.st29{fill:#ABD0E7;}
+	.st30{fill:#FFFFFF;}
+	.st31{fill:#DDF1FB;}
+	.st32{fill:#F6EFE6;}
+	.st33{fill:#E9E0CF;}
+	.st34{fill:#EEA47B;}
+	
+		.st35{fill:none;stroke:#EEA47B;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:12,10;}
+	.st36{clip-path:url(#SVGID_3_);}
+	.st37{opacity:0.4;}
+	.st38{fill:#F3D3C5;}
+	.st39{opacity:0.4;fill:#F3D3C5;}
+	
+		.st40{fill:none;stroke:#84ABC8;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:12,10;}
+	.st41{clip-path:url(#SVGID_5_);}
+	.st42{fill:#C3D9E7;}
+	.st43{opacity:0.4;fill:#C3D9E7;}
+	
+		.st44{fill:none;stroke:#6D9A8A;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:12,10;}
+	.st45{clip-path:url(#SVGID_7_);}
+	.st46{fill:none;stroke:#6D9A8A;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st47{clip-path:url(#SVGID_9_);}
+	.st48{fill:#CEE4DB;}
+	.st49{opacity:0.4;fill:#CEE4DB;}
+	.st50{clip-path:url(#SVGID_11_);}
+	.st51{clip-path:url(#SVGID_13_);}
+	.st52{clip-path:url(#SVGID_15_);}
+	.st53{clip-path:url(#SVGID_17_);}
+	.st54{clip-path:url(#SVGID_19_);}
+	.st55{clip-path:url(#SVGID_21_);}
+	.st56{clip-path:url(#SVGID_23_);}
+	.st57{clip-path:url(#SVGID_25_);}
+	.st58{clip-path:url(#SVGID_27_);}
+	.st59{clip-path:url(#SVGID_29_);}
+	.st60{clip-path:url(#SVGID_31_);}
+	.st61{fill:none;stroke:#EEA47B;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st62{fill:#478476;}
+	.st63{fill:#4382A9;}
+	.st64{fill:#EFEFED;}
+	.st65{fill:#FDFDFD;}
+	.st66{fill:#ECEEED;}
+	.st67{fill:#F9F9F9;}
+	.st68{fill:#EFD36E;}
+	.st69{fill:#FFE075;}
+	.st70{fill:#EAEAEA;}
+	.st71{fill:#E5E5E3;}
+	.st72{fill:#FBB6AE;fill-opacity:0.7;}
+	.st73{fill:#6D9A8A;fill-opacity:0.7;}
+	.st74{fill:#5B6E95;fill-opacity:0.7;}
+	.st75{fill:#E26B01;fill-opacity:0.7;}
+	.st76{fill:#F0E3C1;fill-opacity:0.7;}
+	.st77{fill:#84ABC8;fill-opacity:0.7;}
+	.st78{fill:#EEA47C;fill-opacity:0.7;}
+	.st79{fill:#FBB6AE;}
+	.st80{fill:#F1C77D;stroke:#CD8013;stroke-miterlimit:10;}
+	.st81{fill:none;stroke:#CD8013;stroke-miterlimit:10;stroke-dasharray:5,5;}
+	.st82{display:none;}
+	.st83{display:inline;}
+	.st84{display:inline;clip-path:url(#SVGID_33_);}
+	.st85{fill:none;stroke:#D7D7D7;stroke-miterlimit:10;}
+	.st86{fill:none;stroke:#808183;stroke-width:8;stroke-miterlimit:10;}
+	.st87{fill:#24252B;}
+	.st88{fill:#FFFFFF;stroke:#EEA47B;stroke-miterlimit:10;}
+	.st89{fill:#FFFFFF;stroke:#6092B1;stroke-miterlimit:10;}
+	.st90{fill:#6092B1;}
+	.st91{fill:#FFFFFF;stroke:#6D9A8A;stroke-miterlimit:10;}
+	.st92{fill:none;stroke:#84ABC8;stroke-miterlimit:10;}
+	.st93{fill:url(#SVGID_34_);}
+	.st94{fill:url(#SVGID_35_);}
+	.st95{fill:url(#SVGID_36_);}
+	.st96{fill:url(#SVGID_37_);}
+	.st97{fill:#EBEDEF;}
+	.st98{fill:url(#SVGID_38_);}
+	.st99{fill:url(#SVGID_39_);}
+	.st100{fill:url(#SVGID_40_);}
+	.st101{fill:url(#SVGID_41_);}
+	.st102{opacity:0.6;fill:#84ABC8;}
+	.st103{clip-path:url(#SVGID_43_);}
+	.st104{fill:#F3C57D;}
+	.st105{fill:#F6E6DE;}
+	.st106{opacity:0.6;}
+	.st107{fill:#FFF4EC;}
+	.st108{fill:#CD7B42;}
+	.st109{fill:#E18E51;}
+	.st110{opacity:0.6;fill:#FFF4EC;}
+	.st111{fill:#D9D9D9;}
+	.st112{fill:#AECCDC;}
+	.st113{fill:#F0E2C1;}
+	.st114{fill:#E26C01;}
+	.st115{clip-path:url(#SVGID_45_);}
+	.st116{fill:url(#SVGID_46_);}
+	.st117{fill:url(#SVGID_47_);}
+	.st118{fill:url(#SVGID_48_);}
+	.st119{fill:url(#SVGID_49_);}
+	.st120{fill:url(#SVGID_50_);}
+	.st121{fill:url(#SVGID_51_);}
+	.st122{fill:url(#SVGID_52_);}
+	.st123{fill:url(#SVGID_53_);}
+	.st124{fill:url(#SVGID_54_);}
+	.st125{fill:url(#SVGID_55_);}
+	.st126{fill:#E3EEF3;}
+	.st127{fill:#B1B1B1;}
+	.st128{fill:#E1E8EC;}
+	.st129{fill:#ECCEBB;}
+	.st130{fill:#FDE7D9;}
+	.st131{fill:#F5F5F5;}
+	.st132{opacity:0.4;fill:#DC7854;}
+	.st133{fill:url(#SVGID_56_);}
+	.st134{fill:url(#SVGID_57_);}
+	.st135{fill:url(#SVGID_58_);}
+	.st136{fill:url(#SVGID_59_);}
+	.st137{fill:url(#SVGID_60_);}
+	.st138{fill:url(#SVGID_61_);}
+	.st139{fill:url(#SVGID_62_);}
+	.st140{fill:url(#SVGID_63_);}
+	.st141{fill:none;}
+	.st142{fill:url(#SVGID_64_);}
+	.st143{fill:url(#SVGID_65_);}
+	.st144{fill:url(#SVGID_66_);}
+	.st145{fill:url(#SVGID_67_);}
+	.st146{fill:url(#SVGID_68_);}
+	.st147{fill:url(#SVGID_69_);}
+	.st148{fill:url(#SVGID_70_);}
+	.st149{fill:url(#SVGID_71_);}
+	.st150{fill:url(#SVGID_74_);}
+	.st151{fill:url(#SVGID_75_);}
+	.st152{fill:url(#SVGID_76_);}
+	.st153{fill:url(#SVGID_77_);}
+	.st154{fill:url(#SVGID_78_);}
+	.st155{fill:url(#SVGID_79_);}
+	.st156{fill:url(#SVGID_80_);}
+	.st157{fill:url(#SVGID_81_);}
+	.st158{fill:url(#SVGID_86_);}
+	.st159{fill:url(#SVGID_87_);}
+	.st160{fill:url(#SVGID_88_);}
+	.st161{fill:url(#SVGID_89_);}
+	.st162{fill:url(#SVGID_90_);}
+	.st163{fill:url(#SVGID_91_);}
+	.st164{fill:url(#SVGID_92_);}
+	.st165{fill:url(#SVGID_93_);}
+	.st166{fill-rule:evenodd;clip-rule:evenodd;fill:url(#SVGID_94_);}
+	.st167{fill-rule:evenodd;clip-rule:evenodd;fill:#477D98;}
+	.st168{opacity:0.5;}
+	.st169{fill-rule:evenodd;clip-rule:evenodd;fill:#0C4A66;}
+	.st170{fill-rule:evenodd;clip-rule:evenodd;fill:#231F20;}
+	.st171{fill-rule:evenodd;clip-rule:evenodd;fill:url(#SVGID_95_);}
+	.st172{fill-rule:evenodd;clip-rule:evenodd;fill:url(#SVGID_96_);}
+	.st173{fill-rule:evenodd;clip-rule:evenodd;fill:url(#SVGID_97_);}
+	.st174{fill-rule:evenodd;clip-rule:evenodd;fill:url(#SVGID_98_);}
+	.st175{fill-rule:evenodd;clip-rule:evenodd;fill:url(#SVGID_99_);}
+	.st176{fill:url(#SVGID_100_);}
+	.st177{fill:none;stroke:#E8E8E8;stroke-dasharray:3,3;}
+	.st178{fill:#DC8052;}
+	.st179{fill:#F8CCB6;}
+	.st180{opacity:0.6;fill:#6D9A8A;}
+	.st181{fill:#FFF9F7;}
+	.st182{fill:#5F95B6;}
+	.st183{fill:none;stroke:#BEBEBE;}
+	.st184{fill:none;stroke:#BEBEBE;stroke-dasharray:5,5;}
+	.st185{fill:#DD6C0D;}
+	.st186{fill:none;stroke:#FBB6AE;stroke-width:2;}
+	.st187{fill:none;stroke:#6D9A8A;stroke-width:2;}
+	.st188{fill:none;stroke:#5B6E95;stroke-width:2;}
+	.st189{fill:none;stroke:#E26B01;stroke-width:2;}
+	.st190{fill:none;stroke:#F0E3C1;stroke-width:2;}
+	.st191{fill:none;stroke:#84ABC8;stroke-width:2;}
+	.st192{fill:none;stroke:#EEA47C;stroke-width:2;}
+	.st193{fill:#FFFFFF;stroke:#FBB6AE;stroke-width:2;}
+	.st194{fill:#FFFFFF;stroke:#6D9A8A;stroke-width:2;}
+	.st195{fill:#FFFFFF;stroke:#5B6E95;stroke-width:2;}
+	.st196{fill:#FFFFFF;stroke:#E26B01;stroke-width:2;}
+	.st197{fill:#FFFFFF;stroke:#F0E3C1;stroke-width:2;}
+	.st198{fill:#FFFFFF;stroke:#84ABC8;stroke-width:2;}
+	.st199{fill:#FFFFFF;stroke:#EEA47C;stroke-width:2;}
+	.st200{fill:none;stroke:#EEA47C;stroke-miterlimit:10;}
+	.st201{fill:none;stroke:#F0E3C1;stroke-miterlimit:10;}
+	.st202{fill:none;stroke:#E26B01;stroke-miterlimit:10;}
+	.st203{fill:none;stroke:#5B6E95;stroke-miterlimit:10;}
+	.st204{fill:#5B6E95;}
+	.st205{fill:none;stroke:#6D9A8A;stroke-miterlimit:10;}
+	.st206{fill:none;stroke:#FBB6AE;stroke-miterlimit:10;}
+	.st207{fill:none;stroke:#FFFFFF;stroke-dasharray:3,3;}
+	.st208{fill:none;stroke:#84ABC8;}
+	.st209{fill:none;stroke:#EAEAEA;stroke-width:10;stroke-miterlimit:10;}
+	.st210{fill:url(#SVGID_103_);}
+	.st211{fill:url(#SVGID_104_);}
+	.st212{fill:url(#SVGID_105_);}
+	.st213{fill:url(#SVGID_106_);}
+	.st214{fill:url(#SVGID_107_);}
+	.st215{fill:url(#SVGID_108_);}
+	.st216{fill:url(#SVGID_109_);}
+	.st217{fill:url(#SVGID_110_);}
+	.st218{fill:url(#SVGID_111_);}
+	.st219{fill:url(#SVGID_112_);}
+	.st220{fill:url(#SVGID_113_);}
+	.st221{fill:url(#SVGID_114_);}
+	.st222{fill:url(#SVGID_115_);}
+	.st223{fill:url(#SVGID_116_);}
+	.st224{fill:url(#SVGID_117_);}
+	.st225{fill:url(#SVGID_118_);}
+	.st226{enable-background:new    ;}
+	.st227{fill:#8FBEAC;}
+	.st228{fill:#4D836F;}
+	.st229{fill:#D0D2D3;}
+	.st230{fill:#F6F6F6;}
+	.st231{fill:#2E6D53;}
+	.st232{fill:#F3DFCA;}
+	.st233{fill:#F0F1F1;}
+	.st234{fill:#ECECEC;}
+	.st235{fill:none;stroke:#EEA47B;stroke-miterlimit:10;}
+	.st236{fill:none;stroke:#EEA47B;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:1,3;}
+	.st237{fill:url(#SVGID_119_);}
+	.st238{fill:none;stroke:#DF655F;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st239{filter:url(#Adobe_OpacityMaskFilter);}
+	.st240{filter:url(#Adobe_OpacityMaskFilter_1_);}
+	.st241{mask:url(#SVGID_120_);fill:url(#SVGID_121_);}
+	.st242{filter:url(#Adobe_OpacityMaskFilter_2_);}
+	.st243{filter:url(#Adobe_OpacityMaskFilter_3_);}
+	.st244{mask:url(#SVGID_122_);fill:url(#SVGID_123_);}
+	.st245{opacity:0.6;fill:url(#SVGID_124_);}
+	.st246{filter:url(#Adobe_OpacityMaskFilter_4_);}
+	.st247{filter:url(#Adobe_OpacityMaskFilter_5_);}
+	.st248{mask:url(#SVGID_125_);fill:url(#SVGID_126_);}
+	.st249{filter:url(#Adobe_OpacityMaskFilter_6_);}
+	.st250{filter:url(#Adobe_OpacityMaskFilter_7_);}
+	.st251{mask:url(#SVGID_127_);fill:url(#SVGID_128_);}
+	.st252{opacity:0.8;fill:url(#SVGID_129_);}
+	.st253{filter:url(#Adobe_OpacityMaskFilter_8_);}
+	.st254{filter:url(#Adobe_OpacityMaskFilter_9_);}
+	.st255{mask:url(#SVGID_130_);fill:url(#SVGID_131_);}
+	.st256{filter:url(#Adobe_OpacityMaskFilter_10_);}
+	.st257{filter:url(#Adobe_OpacityMaskFilter_11_);}
+	.st258{mask:url(#SVGID_132_);fill:url(#SVGID_133_);}
+	.st259{opacity:0.6;fill:url(#SVGID_134_);}
+	.st260{fill:#C88009;}
+	.st261{fill:#F4B434;}
+	.st262{fill:#F7C866;}
+	.st263{fill:#FFFAD7;}
+	.st264{fill:#DD9A2F;}
+	.st265{fill:none;stroke:#E17A7A;stroke-width:2;stroke-miterlimit:10;stroke-dasharray:3,10;}
+	.st266{clip-path:url(#SVGID_136_);fill:#E8EFF3;}
+	.st267{fill:#346E90;}
+	.st268{fill:#D6DAE1;}
+	.st269{fill:#E6E9ED;}
+	.st270{fill:#F5F7FA;}
+	.st271{fill-rule:evenodd;clip-rule:evenodd;fill:#D4D8DD;}
+	.st272{fill:#D8D8D8;}
+	.st273{fill-rule:evenodd;clip-rule:evenodd;fill:#F0D0B4;}
+	.st274{fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;}
+	.st275{fill-rule:evenodd;clip-rule:evenodd;fill:#F1C77D;}
+	.st276{fill-rule:evenodd;clip-rule:evenodd;fill:#FBB6AE;}
+	.st277{opacity:0.25;}
+	.st278{clip-path:url(#SVGID_138_);}
+	.st279{clip-path:url(#SVGID_140_);fill:#FBB6AE;stroke:#E17A7A;stroke-width:35;stroke-miterlimit:10;}
+	.st280{clip-path:url(#SVGID_140_);fill:#FFF1EF;}
+	.st281{clip-path:url(#SVGID_140_);}
+	.st282{fill:#E17A7A;}
+	.st283{clip-path:url(#SVGID_142_);}
+	.st284{clip-path:url(#SVGID_144_);fill:#AED7C8;stroke:#6D9A8A;stroke-width:35;stroke-miterlimit:10;}
+	.st285{clip-path:url(#SVGID_144_);fill:#FFF1EF;}
+	.st286{clip-path:url(#SVGID_144_);}
+	.st287{fill:#D79941;}
+	.st288{clip-path:url(#SVGID_146_);}
+	.st289{clip-path:url(#SVGID_148_);fill:#FBB6AE;stroke:#E17A7A;stroke-width:35;stroke-miterlimit:10;}
+	.st290{clip-path:url(#SVGID_148_);fill:#FFF1EF;}
+	.st291{clip-path:url(#SVGID_148_);fill:#E17A7A;}
+	.st292{clip-path:url(#SVGID_150_);}
+	.st293{clip-path:url(#SVGID_152_);fill:#AED7C8;stroke:#6D9A8A;stroke-width:35;stroke-miterlimit:10;}
+	.st294{clip-path:url(#SVGID_152_);fill:#FFF1EF;}
+	.st295{clip-path:url(#SVGID_152_);fill:#6D9A8A;}
+	.st296{clip-path:url(#SVGID_154_);}
+	.st297{clip-path:url(#SVGID_156_);fill:#FBB6AE;stroke:#E17A7A;stroke-width:35;stroke-miterlimit:10;}
+	.st298{clip-path:url(#SVGID_156_);fill:#FFF1EF;}
+	.st299{clip-path:url(#SVGID_156_);fill:#E17A7A;}
+	.st300{clip-path:url(#SVGID_158_);}
+	.st301{clip-path:url(#SVGID_160_);fill:#AED7C8;stroke:#6D9A8A;stroke-width:35;stroke-miterlimit:10;}
+	.st302{clip-path:url(#SVGID_160_);fill:#FFF1EF;}
+	.st303{clip-path:url(#SVGID_160_);fill:#6D9A8A;}
+	.st304{clip-path:url(#SVGID_162_);}
+	.st305{clip-path:url(#SVGID_164_);fill:#FBB6AE;stroke:#E17A7A;stroke-width:35;stroke-miterlimit:10;}
+	.st306{clip-path:url(#SVGID_164_);fill:#FFF1EF;}
+	.st307{clip-path:url(#SVGID_164_);fill:#E17A7A;}
+	.st308{clip-path:url(#SVGID_166_);}
+	.st309{clip-path:url(#SVGID_168_);fill:#AED7C8;stroke:#6D9A8A;stroke-width:35;stroke-miterlimit:10;}
+	.st310{clip-path:url(#SVGID_168_);fill:#FFF1EF;}
+	.st311{clip-path:url(#SVGID_168_);fill:#6D9A8A;}
+	.st312{opacity:0.6;fill:#EEA47B;}
+	.st313{fill:#FFFFFF;stroke:#DC7854;stroke-miterlimit:10;}
+	.st314{fill:url(#SVGID_169_);}
+	.st315{fill:none;stroke:#3D705C;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st316{fill:none;stroke:#5484A2;stroke-miterlimit:10;}
+	.st317{fill:url(#SVGID_170_);stroke:#3D705C;stroke-miterlimit:10;}
+	.st318{fill:url(#SVGID_171_);stroke:#DF655F;stroke-miterlimit:10;}
+	.st319{fill:#E1F1E8;}
+	.st320{fill:#C9E7D9;}
+	.st321{fill:#E4885C;}
+	.st322{fill:#518D77;}
+	.st323{fill:#5D8174;}
+	.st324{fill:none;stroke:#000000;stroke-miterlimit:10;}
+	.st325{fill:#FFFBF3;}
+	.st326{clip-path:url(#SVGID_173_);}
+	.st327{fill:#BE8D80;}
+	.st328{fill:#F4BDBE;}
+	.st329{fill:#D88D97;}
+	.st330{fill:#281408;}
+	.st331{opacity:0.1;}
+	.st332{fill:url(#SVGID_174_);}
+	.st333{fill:url(#SVGID_175_);}
+	.st334{fill:url(#SVGID_176_);}
+	.st335{fill:url(#SVGID_177_);}
+	.st336{fill:url(#SVGID_178_);}
+	.st337{fill:url(#SVGID_179_);}
+	.st338{fill:url(#SVGID_180_);}
+	.st339{fill:url(#SVGID_181_);}
+	.st340{fill:url(#SVGID_182_);}
+	.st341{fill:url(#SVGID_183_);}
+	.st342{fill:url(#SVGID_184_);}
+	.st343{fill:url(#SVGID_185_);}
+	.st344{fill:url(#SVGID_186_);}
+	.st345{fill:url(#SVGID_187_);}
+	.st346{fill:url(#SVGID_188_);}
+	.st347{fill:url(#SVGID_189_);}
+	.st348{fill:url(#SVGID_190_);}
+	.st349{fill:url(#SVGID_191_);}
+	.st350{fill:url(#SVGID_192_);}
+	.st351{fill:url(#SVGID_193_);}
+	.st352{fill:url(#SVGID_194_);}
+	.st353{fill:url(#SVGID_195_);}
+	.st354{fill:url(#SVGID_196_);}
+	.st355{fill:url(#SVGID_197_);}
+	.st356{fill:url(#SVGID_198_);}
+	.st357{fill:url(#SVGID_199_);}
+	.st358{fill:url(#SVGID_200_);}
+	.st359{fill:url(#SVGID_201_);}
+	.st360{fill:url(#SVGID_202_);}
+	.st361{fill:url(#SVGID_203_);}
+	.st362{fill:#A28870;}
+	.st363{fill:#24B3D3;}
+	.st364{fill:#F6A610;}
+	.st365{fill:#FF9EC5;}
+	.st366{fill:#EE83B4;}
+	.st367{fill:#E4538D;}
+	.st368{fill:#CD8013;}
+	.st369{fill:none;stroke:#24252B;stroke-width:3;stroke-miterlimit:10;}
+	.st370{fill:#DAC69B;}
+	.st371{fill:#658A8B;}
+	.st372{opacity:0.8;fill:#171819;}
+	.st373{fill:#FFFFFF;stroke:#FFFFFF;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st374{fill:#FFB1A9;}
+	.st375{fill:#F2C87D;}
+	.st376{fill:#356652;}
+	.st377{font-family:'HelloFont-WenYiHei';}
+	.st378{font-size:60px;}
+	.st379{letter-spacing:15;}
+	.st380{fill:#4A7C67;}
+	.st381{font-family:'AlibabaPuHuiTi-Medium-GBpc-EUC-H';}
+	.st382{font-size:32px;}
+	.st383{fill:#151B2B;}
+	.st384{fill:#608C7B;}
+	.st385{font-family:'AlibabaPuHuiTi-Regular-GBpc-EUC-H';}
+	.st386{font-size:30px;}
+	.st387{font-size:32px;glyph-orientation-vertical:0;writing-mode:tb;}
+	.st388{font-size:24px;}
+</style>
+<g id="头部">
+</g>
+<g id="米色背景">
+</g>
+<g id="画框">
+	<g>
+		<rect x="0" y="0.1" class="st30" width="750" height="1333.9"/>
+		<rect x="15" y="15" class="st30" width="720" height="1304"/>
+		<rect x="30" y="30" class="st32" width="690" height="1274"/>
+	</g>
+</g>
+<g id="主体">
+	<g>
+		<rect x="49.9" y="94.6" class="st375" width="190" height="190"/>
+		<path class="st30" d="M49.9,94.6c0,104.9,85.1,190,190,190v-190H49.9z"/>
+		<path class="st374" d="M77.1,192.6c33.3,55.1,93.7,92,162.8,92v-91L77.1,192.6z"/>
+	</g>
+	<rect x="654.7" y="317.3" class="st374" width="46" height="190"/>
+	<rect x="255.2" y="238.6" class="st375" width="445.5" height="46"/>
+	<text transform="matrix(1 0 0 1 411.5179 158.6203)"><tspan x="0" y="0" class="st376 st377 st378 st379">哪些因素</tspan><tspan x="-150" y="98" class="st376 st377 st378 st379">影响书籍销售</tspan></text>
+	<rect x="49.9" y="539.9" class="st374" width="190" height="190"/>
+	<g>
+		<rect x="279.8" y="985.3" class="st375" width="190" height="190"/>
+		<path class="st380" d="M279.8,985.3c52.5,0,95,42.5,95,95c0,52.5-42.5,95-95,95"/>
+		<path class="st30" d="M374.8,985.3c52.5,0,95,42.5,95,95c0,52.5-42.5,95-95,95"/>
+	</g>
+	<g>
+		<rect x="49.9" y="985.3" class="st30" width="190" height="190"/>
+		<polygon class="st375" points="239.9,1175.3 201.5,1175.3 83.4,985.3 239.9,985.3 		"/>
+		<polygon class="st380" points="177.8,1175.1 50,985.2 98.3,985.3 226.2,1175.3 		"/>
+	</g>
+	<text transform="matrix(0.5497 0.8354 -0.8354 0.5497 66.0263 1078.8732)" class="st376 st381 st382">出版社</text>
+	<g>
+		<rect x="509.8" y="985.3" class="st383" width="190" height="190"/>
+		<polygon class="st383" points="699.8,1175.3 605.9,1175.3 509.8,1175.3 509.8,1080.3 509.8,985.3 604.8,985.3 699.8,985.3 
+			699.8,1080.3 		"/>
+		<polygon class="st375" points="699.8,1175.3 605.9,1175.3 509.8,1175.3 509.8,1080.3 509.8,985.3 604.8,985.3 699.8,985.3 
+			699.8,1080.3 		"/>
+		<polyline class="st30" points="509.3,1080.3 509.3,1175.3 605.4,1175.3 604.3,1080.3 509.3,1080.3 		"/>
+		<polyline class="st374" points="604.8,985.3 699.8,985.3 699.8,1080.3 604.8,1080.3 604.8,985.3 		"/>
+		<rect x="509.8" y="985.3" class="st380" width="95" height="95"/>
+	</g>
+	<text transform="matrix(1 0 0 1 526.5889 1141.2892)" class="st376 st381 st382">品牌</text>
+	<g>
+		<rect x="49.9" y="317.3" class="st375" width="190" height="190"/>
+		<polyline class="st380" points="239.9,317.3 239.9,507.3 49.9,507.3 		"/>
+		<path class="st30" d="M77.7,479.4c-37.1-37.1-37.1-97.3,0-134.4s97.3-37.1,134.4,0"/>
+	</g>
+	<text transform="matrix(0.729 -0.6845 0.6845 0.729 96.8529 439.0974)" class="st376 st381 st382">涨20倍</text>
+	<text transform="matrix(1 0 0 1 92.9926 179.0265)" class="st376 st381 st382">网络销售</text>
+	<g>
+		<rect x="279.7" y="539.9" class="st30" width="190" height="190"/>
+		<polygon class="st380" points="469.7,729.9 469.7,539.9 279.7,539.9 377.6,637.9 		"/>
+		<polygon class="st375" points="377.6,637.9 469.7,729.9 469.7,539.9 		"/>
+		<path class="st374" d="M469.7,631.1c-0.9-0.4-1.8-0.8-2.7-1.2c-26.4-10.7-57.9-5.4-79.3,16.1c-22.7,22.7-27.4,56.6-14,83.9l96.1,0
+			L469.7,631.1z"/>
+	</g>
+	<text transform="matrix(0.6886 0.7251 -0.7251 0.6886 321.7622 626.6786)" class="st376 st381 st382">网红书店</text>
+	<rect x="509.8" y="539.9" class="st375" width="190" height="190"/>
+	<g>
+		<rect x="509.8" y="762.6" class="st375" width="190" height="190"/>
+		<path class="st380" d="M699.8,818.9c-36.2-12.2-77.8-3.8-106.7,25c-29.4,29.4-37.5,72-24.4,108.7l131,0L699.8,818.9z"/>
+		<path class="st30" d="M699.8,853.8c-0.9-0.4-1.8-0.8-2.7-1.2c-26.4-10.7-57.9-5.4-79.3,16.1c-22.7,22.7-27.4,56.6-14,83.9l96.1,0
+			L699.8,853.8z"/>
+	</g>
+	<text transform="matrix(1 0 0 1 623.2154 899.9498)"><tspan x="0" y="0" class="st376 st381 st382">最美</tspan><tspan x="0" y="38.4" class="st376 st381 st382">图书</tspan></text>
+	<text transform="matrix(1 0 0 1 302.5208 1264.181)" class="st384 st385 st386">Pick关键词</text>
+	<rect x="508.4" y="539.9" class="st30" width="73.9" height="135.6"/>
+	<rect x="509.9" y="675.5" class="st374" width="73.9" height="54.5"/>
+	<g>
+		<rect x="49.9" y="762.6" class="st375" width="190" height="190"/>
+		<polygon class="st30" points="239.9,952.6 49.9,952.6 49.9,762.6 92.9,785.3 158.5,817.8 186.8,843 207.3,896.8 216,910.7 		"/>
+		<path class="st380" d="M49.9,812.6 M49.9,762.6v50c37.4,0,72.6,14.6,99,41c26.4,26.4,41,61.6,41,99h50
+			C239.9,847.7,154.8,762.6,49.9,762.6L49.9,762.6"/>
+	</g>
+	<path class="st380" d="M584.7,539.9c0,64.2,52.1,116.3,116.3,116.3V539.9H584.7z"/>
+	<path class="st30" d="M239.9,613.6c-64.2,0-116.3,52.1-116.3,116.3h116.3V613.6z"/>
+	<text transform="matrix(1 0 0 1 409.5891 1021.5566)" class="st376 st381 st387">头部图书</text>
+	<text transform="matrix(1 0 0 1 547.2851 577.7238)" class="st376 st381 st387">封面</text>
+	<path id="SVGID_x5F_1_x5F_" class="st141" d="M45.4,827.5c0,0,51.3-2,88.7,36.6s36.3,74.1,37.4,90"/>
+	<text>	<textPath  xlink:href="#SVGID_x5F_1_x5F_" startOffset="20.9715%">
+<tspan  class="st376 st381 st382">颜色</tspan>	</textPath>
+</text>
+	<polygon class="st375" points="239.9,539.9 49.9,729.9 49.9,539.9 	"/>
+	<text transform="matrix(1 0 0 1 158.0568 695.7692)" class="st376 st381 st382">精装</text>
+	<g>
+		<text transform="matrix(1 0 0 1 219.1596 499.7219)" class="st17 st381 st388">2</text>
+		<g>
+			<text transform="matrix(1 0 0 1 367.9801 565.4176)" class="st17 st381 st388">4</text>
+		</g>
+		<text transform="matrix(1 0 0 1 55.661 277.75)" class="st21 st381 st388">1</text>
+		<text transform="matrix(1 0 0 1 55.6611 565.4177)" class="st21 st381 st388">3</text>
+		<g>
+			<text transform="matrix(1 0 0 1 682.7473 724.6801)" class="st21 st381 st388">5</text>
+		</g>
+		<g>
+			<text transform="matrix(1 0 0 1 519.5034 789.3804)" class="st21 st381 st388">7</text>
+		</g>
+		<g>
+			<text transform="matrix(1 0 0 1 219.1595 789.3804)" class="st21 st381 st388">6</text>
+		</g>
+		<g>
+			<text transform="matrix(1 0 0 1 219.1595 1011.3524)" class="st21 st381 st388">8</text>
+		</g>
+		<g>
+			<text transform="matrix(1 0 0 1 449.0945 1011.3524)" class="st21 st381 st388">9</text>
+		</g>
+		<g>
+			<text transform="matrix(1 0 0 1 663.7551 1166.6329)" class="st21 st381 st388">10</text>
+		</g>
+	</g>
+</g>
+<g id="切片">
+	<rect id="_x3C_切片_x3E__30_" x="49.9" y="94.6" class="st141" width="190" height="190"/>
+	<rect id="_x3C_切片_x3E__19_" x="49.9" y="317.3" class="st141" width="190" height="190"/>
+	<rect id="_x3C_切片_x3E__18_" x="49.9" y="539.9" class="st141" width="190" height="190"/>
+	<rect id="_x3C_切片_x3E__17_" x="279.7" y="539.9" class="st141" width="190" height="190"/>
+	<rect id="_x3C_切片_x3E__16_" x="509.8" y="539.9" class="st141" width="190" height="190"/>
+	<rect id="_x3C_切片_x3E__15_" x="509.8" y="762.6" class="st141" width="190" height="190"/>
+	<rect id="_x3C_切片_x3E__14_" x="49.9" y="762.6" class="st141" width="190" height="190"/>
+	<rect id="_x3C_切片_x3E__13_" x="49.9" y="985.3" class="st141" width="190" height="190"/>
+	<rect id="_x3C_切片_x3E__12_" x="279.8" y="985.3" class="st141" width="190" height="190"/>
+	<rect id="_x3C_切片_x3E__11_" x="509.3" y="985.3" class="st141" width="190" height="190"/>
+</g>
+<g id="logo">
+</g>
+</svg>
