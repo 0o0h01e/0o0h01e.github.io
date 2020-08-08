@@ -1,8 +1,3 @@
-// $(document).ready(() => {
-    
-  
-// })
-
 const queue = new createjs.LoadQueue(false);
 
 const images = [];
@@ -49,8 +44,9 @@ queue.on("complete", function(){
     });
     
     // 点击目录项
+    let index;  // 内容序号
     $('#catalog .row img').on('click', (e) => {
-        const index = e.currentTarget.getAttribute('index');
+        index = Number(e.currentTarget.getAttribute('index'));
         setTimeout(() => {
             $('#catalogIcon').css('display', 'block');
         }, 500);
@@ -59,7 +55,6 @@ queue.on("complete", function(){
         $('#content img').attr('src', './assets/' + '书籍设计' + index + '.jpg');
         $('#content').scrollTop(0);
         $('#content').css('display', 'block');
-        
         
     })
     
@@ -78,12 +73,34 @@ queue.on("complete", function(){
         $('#catalog').css('display', 'none');
     })
     
-    // new iScroll('#content', {
-    //     onRefresh: () => {},
-    //     onScrollMove: () => {},
-    //     onScrollEnd: () => {
-    //         console.log(this.y);
-    //     }
-    // });
     
+    let dragY;
+    new iScroll('content', {
+        onRefresh: () => {},
+        onScrollMove: function() {
+            // console.log("Y[" + this.y + "],maxScrollY[" + this.maxScrollY + "],minScrollY[" + this.minScrollY + "],scrollerH[" + this.scrollerH + "],wrapperH[" + this.wrapperH + "]");
+            console.log(this.y);
+
+            if (this.y <= -20) {
+                console.log('小于-20');
+                $('#dragUpTip').css('display', 'block');
+            } else if (this.y < 0 && this.y > -20 ) {
+                console.log('大于-20');
+                $('#dragUpTip').css('display', 'none');
+            }
+
+            dragY = this.y;
+        },
+        onScrollEnd: () => {
+            if (dragY <= -20) {
+                index = index < 10 ? index + 1 : index;
+                $('#content img').attr('src', './assets/' + '书籍设计' + index + '.jpg');
+                $('#content').scrollTop(0);
+                $('#dragUpTip').css('display', 'none');
+            }
+        }
+    });
+})
+
+$(document).ready(() => {
 })

@@ -180,15 +180,33 @@ html, body {
 #content {
 	/* position: relative; */
 	height: 100%;
-	overflow-y: scroll;
-	overflow-x: hidden;
+	/* overflow-y: scroll; */
+	/* overflow-x: hidden; */
 }
 
-#content img {
+#content #scroller {
+	height: 100%;
+	/* overflow-y: scroll; */
+}
+
+#content #scroller #showContainer {
+	height: 100%;
+	overflow-y: scroll;
+}
+
+#content #scroller img {
 	width: 100%;
 	height: auto;
 }
 
+.dragTip {
+	text-align: center;
+	padding: 10px 0;
+	display: none;
+}
+
+
+/* 滚动条样式 */
 ::-webkit-scrollbar {
 	width: 0px;
 	height: 6px;
