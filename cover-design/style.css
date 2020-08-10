@@ -205,7 +205,8 @@ html, body {
 	height: 50px;
 	display: none;
 	/* text-align: center; */
-	position: relative;
+	position: absolute;
+	width: 100%;
 }
 #dragUpTip p,
 #dragUpLastTip p {
@@ -214,6 +215,7 @@ html, body {
 	margin: 0 auto;
 	width: 100%;
 	text-align: center;
+	bottom: -50px;
 }
 
 #dragDownTip p,
@@ -222,6 +224,7 @@ html, body {
 	margin: 0 auto;
 	width: 100%;
 	text-align: center;
+	top: -50px;
 }
 
 
