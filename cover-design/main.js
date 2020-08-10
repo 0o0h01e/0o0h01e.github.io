@@ -45,6 +45,7 @@ queue.on("complete", function(){
     
     // 点击目录项
     let index;  // 内容序号
+    let myScroll;
     $('#catalog .row img').on('click', (e) => {
         index = Number(e.currentTarget.getAttribute('index'));
         setTimeout(() => {
@@ -57,7 +58,15 @@ queue.on("complete", function(){
         $('#content').css('display', 'block');
 
         setTimeout(() => {
-             initScroll();
+            if (myScroll) {
+                myScroll.refresh();
+                setTimeout(() => {
+                    myScroll.scrollTo(0, 0);
+
+                }, 100)
+            } else {
+                initScroll();
+            }
         }, 100); 
     })
     
@@ -80,14 +89,12 @@ queue.on("complete", function(){
         let dragUpY = 0;
         let dragDownY = 0;
 
-        const myScroll = new iScroll('content', {
+        myScroll = new iScroll('content', {
             useTransition: true,
             vScrollbar: false,
+            // deceleration: 0.01,
             onScrollMove: function() {
                 console.log(this.y);
-                // console.log(this);
-                
-                let d = this.y > 0 ? this.y : this.y - this.maxScrollY;
 
                 if (this.y < 0) {
                     dragUpY = this.y - this.maxScrollY;
@@ -115,46 +122,44 @@ queue.on("complete", function(){
                     }
                 }
 
-                dragY = d;
-                console.log('Scrolling dragY: ', dragY)
+                // dragY = d;
+                console.log('Scrolling dragDownY and dragUpY: ', dragDownY, dragUpY);
             }, 
             onScrollEnd: () => {
-                console.log('scrollEnd dragY: ', dragY);
+                console.log('Scrolling dragDownY and dragUpY: ', dragDownY, dragUpY);
 
                 // 上滑重新加载
                 if (dragUpY <= -100) {
+                    dragUpY = 0;    // 重置
                     console.log('上滑重新加载');
                     if (index < 10) {
-                        // 清理iScroll实例
-                        myScroll.destroy();
                         
                         index++;
                         console.log(index);
                         $('#content img').attr('src', './assets/' + '书籍设计' + index + '.jpg');
-                        $('#showContainer').scrollTop(0);
-
+                        myScroll.scrollTo(0, 0);
                         
-                        // 重新实例化iScroll
-                        initScroll();
+                        setTimeout(() => {
+                            myScroll.refresh();
+                        }, 100);
                     }
                     $('.dragTip').css('display', 'none');
                 }
 
                 // 下拉重新加载
                 if (dragDownY >= 100) {
+                    dragDownY = 0;  // 重置
                     console.log('下拉重新加载');
                     if (index > 1) {
-                        // 清理iScroll实例
-                        myScroll.destroy();
 
                         index--;
                         console.log(index);
                         $('#content img').attr('src', './assets/' + '书籍设计' + index + '.jpg');
-                        $('#showContainer').scrollTop(0);
-
+                        myScroll.scrollTo(0, 0);
                         
-                        // 重新实例化iScroll
-                        initScroll();
+                        setTimeout(() => {
+                            myScroll.refresh();
+                        }, 100);
                     }
                     $('.dragTip').css('display', 'none');
                 }
