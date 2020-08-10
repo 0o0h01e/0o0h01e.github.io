@@ -55,7 +55,10 @@ queue.on("complete", function(){
         $('#content img').attr('src', './assets/' + '书籍设计' + index + '.jpg');
         $('#showContainer').scrollTop(0);
         $('#content').css('display', 'block');
-        
+
+        setTimeout(() => {
+             initScroll();
+        }, 100); 
     })
     
     // 点击目录Icon
@@ -67,38 +70,95 @@ queue.on("complete", function(){
         $('#catalog').css('background-color', 'rgba(0, 0, 0, 0.9)');
         
     })
-
+    
     // 点击目录closeIcon
     $('#closeIcon').on('click', () => {
         $('#catalog').css('display', 'none');
     })
     
-    
-    // let dragY;
-    // new iScroll('content', {
-    //     useTransition: true,
-    //     onRefresh: () => {},
-    //     onScrollMove: function() {
-    //         console.log(this.y);
+    let initScroll = () => {
+        let dragUpY = 0;
+        let dragDownY = 0;
 
-    //         if (this.y <= -50) {
-    //             $('#dragUpTip').css('display', 'block');
-    //         } else if (this.y < 0 && this.y > -50 ) {
-    //             $('#dragUpTip').css('display', 'none');
-    //         }
+        const myScroll = new iScroll('content', {
+            useTransition: true,
+            vScrollbar: false,
+            onScrollMove: function() {
+                console.log(this.y);
+                // console.log(this);
+                
+                let d = this.y > 0 ? this.y : this.y - this.maxScrollY;
 
-    //         dragY = this.y;
-    //     },
-    //     onScrollEnd: () => {
-    //         if (dragY <= -50) {
-    //             index = index < 10 ? index + 1 : index;
-    //             $('#content img').attr('src', './assets/' + '书籍设计' + index + '.jpg');
-    //             $('#showContainer').scrollTop(0);
-    //             $('#dragUpTip').css('display', 'none');
-    //         }
-    //     }
-    // });
-})
+                if (this.y < 0) {
+                    dragUpY = this.y - this.maxScrollY;
+                    if (dragUpY <= -100) {
+                        if (index < 10) {
+                            $('#dragUpTip').css('display', 'block');
+                        } else {
+                            $('#dragUpLastTip').css('display', 'block');
+                        }
+                    } else if (dragUpY > -100 && dragUpY < 0) {
+                        $('.dragTip').css('display', 'none');
+                    }
+                }
+                
+                if (this.y > 0) {   
+                    dragDownY = this.y;
+                    if (dragDownY >= 100) {
+                        if (index > 1) {
+                            $('#dragDownTip').css('display', 'block');
+                        } else {
+                            $('#dragDownFirstTip').css('display', 'block');
+                        }
+                    } else if (dragDownY < 100 && dragDownY > 0) {
+                        $('.dragTip').css('display', 'none');
+                    }
+                }
 
-$(document).ready(() => {
-})
+                dragY = d;
+                console.log('Scrolling dragY: ', dragY)
+            }, 
+            onScrollEnd: () => {
+                console.log('scrollEnd dragY: ', dragY);
+
+                // 上滑重新加载
+                if (dragUpY <= -100) {
+                    console.log('上滑重新加载');
+                    if (index < 10) {
+                        // 清理iScroll实例
+                        myScroll.destroy();
+                        
+                        index++;
+                        console.log(index);
+                        $('#content img').attr('src', './assets/' + '书籍设计' + index + '.jpg');
+                        $('#showContainer').scrollTop(0);
+
+                        
+                        // 重新实例化iScroll
+                        initScroll();
+                    }
+                    $('.dragTip').css('display', 'none');
+                }
+
+                // 下拉重新加载
+                if (dragDownY >= 100) {
+                    console.log('下拉重新加载');
+                    if (index > 1) {
+                        // 清理iScroll实例
+                        myScroll.destroy();
+
+                        index--;
+                        console.log(index);
+                        $('#content img').attr('src', './assets/' + '书籍设计' + index + '.jpg');
+                        $('#showContainer').scrollTop(0);
+
+                        
+                        // 重新实例化iScroll
+                        initScroll();
+                    }
+                    $('.dragTip').css('display', 'none');
+                }
+            }
+        });
+    }
+});

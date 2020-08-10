@@ -178,15 +178,33 @@ html, body {
 }
 
 #content {
-	/* position: relative; */
+	position: absolute;
 	height: 100%;
-	/* overflow-y: scroll; */
-	/* overflow-x: hidden; */
+	width: 100%;
+	z-index: 1;
 }
 
 #content #scroller {
-	height: 100%;
-	overflow-y: scroll;
+	/* height: 100%; */
+	width: 100%;
+	/* overflow-y: scroll; */
+	position: absolute;
+	z-index: 1;
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	text-align: left;
+}
+
+li {
+	min-height:100px;
+	background-color: #fafafa;
+	font-size: 14px;
+	padding:5px;
 }
 
 #content #scroller #showContainer {
@@ -205,14 +223,17 @@ html, body {
 	/* text-align: center; */
 	position: relative;
 }
-#dragUpTip p{
+#dragUpTip p,
+#dragUpLastTip p {
 	position: absolute;
 	bottom: 0;
 	margin: 0 auto;
 	width: 100%;
 	text-align: center;
 }
-#dragDownTip p {
+
+#dragDownTip p,
+#dragDownFirstTip p {
 	position: absolute;
 	margin: 0 auto;
 	width: 100%;
