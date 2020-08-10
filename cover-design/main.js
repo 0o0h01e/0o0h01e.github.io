@@ -74,30 +74,30 @@ queue.on("complete", function(){
     })
     
     
-    let dragY;
-    new iScroll('content', {
-        useTransition: true,
-        onRefresh: () => {},
-        onScrollMove: function() {
-            console.log(this.y);
+    // let dragY;
+    // new iScroll('content', {
+    //     useTransition: true,
+    //     onRefresh: () => {},
+    //     onScrollMove: function() {
+    //         console.log(this.y);
 
-            if (this.y <= -50) {
-                $('#dragUpTip').css('display', 'block');
-            } else if (this.y < 0 && this.y > -50 ) {
-                $('#dragUpTip').css('display', 'none');
-            }
+    //         if (this.y <= -50) {
+    //             $('#dragUpTip').css('display', 'block');
+    //         } else if (this.y < 0 && this.y > -50 ) {
+    //             $('#dragUpTip').css('display', 'none');
+    //         }
 
-            dragY = this.y;
-        },
-        onScrollEnd: () => {
-            if (dragY <= -50) {
-                index = index < 10 ? index + 1 : index;
-                $('#content img').attr('src', './assets/' + '书籍设计' + index + '.jpg');
-                $('#showContainer').scrollTop(0);
-                $('#dragUpTip').css('display', 'none');
-            }
-        }
-    });
+    //         dragY = this.y;
+    //     },
+    //     onScrollEnd: () => {
+    //         if (dragY <= -50) {
+    //             index = index < 10 ? index + 1 : index;
+    //             $('#content img').attr('src', './assets/' + '书籍设计' + index + '.jpg');
+    //             $('#showContainer').scrollTop(0);
+    //             $('#dragUpTip').css('display', 'none');
+    //         }
+    //     }
+    // });
 })
 
 $(document).ready(() => {
