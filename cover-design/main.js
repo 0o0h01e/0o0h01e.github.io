@@ -8,7 +8,7 @@ const images = [
 ];
 
 const contentImgs = [
-    'https://ww1.sinaimg.cn/large/a1823812gy1ghm5879dntj20ku3r6qhr.jpg',
+    'https://ww1.sinaimg.cn/large/a1823812gy1ghmo14e4khg20ku3r6n3k.jpg',
     'https://ww1.sinaimg.cn/large/a1823812gy1ghm5bu2xqlj20ku1rvjyi.jpg',
     'https://ww1.sinaimg.cn/large/a1823812gy1ghm5cvw3lsj20ku2osn69.jpg',
     'https://ww1.sinaimg.cn/large/a1823812gy1ghm5d9qs84j20ku2cek28.jpg',
@@ -37,10 +37,11 @@ console.log(images);
 queue.loadManifest(images, true, './assets/');
 
 queue.on('progress', progress => {
-    if (progress.progress > 0.7) {
+    if (progress.progress > 0.99) {
         $('#loading').remove();
         $('.container').css('display', 'block'); 
     }
+    $('#progress').html(parseInt(progress.progress * 100) + '%');
 })
 // queue.on("complete", function(){});
 
@@ -88,6 +89,12 @@ $(document).ready(function () {
         $('#showContainer').scrollTop(0);
         $('#content').css('display', 'block');
 
+        if (index == 10) {
+            $('#shareBtn').css('display', 'block');
+        } else {
+            $('#shareBtn').css('display', 'none');
+        }
+
         setTimeout(() => {
             if (myScroll) {
                 myScroll.refresh();
@@ -114,6 +121,14 @@ $(document).ready(function () {
     // 点击目录closeIcon
     $('#closeIcon').on('click', () => {
         $('#catalog').css('display', 'none');
+    })
+
+    $('#shareBtn').on('click', () => {
+        $('#share').css('display', 'block');
+    })
+
+    $('#share').on('click', () => {
+        $('#share').css('display', 'none');
     })
     
     let initScroll = () => {
@@ -162,6 +177,12 @@ $(document).ready(function () {
                         // $('#content img').attr('src', './assets/' + '书籍设计' + index + '.jpg');
                         $('#content img').attr('src', contentImgs[index - 1]);
                         myScroll.scrollTo(0, 0);
+
+                        if (index == 10) {
+                            $('#shareBtn').css('display', 'block');
+                        } else {
+                            $('#shareBtn').css('display', 'none');
+                        }
                         
                         setTimeout(() => {
                             myScroll.refresh();
@@ -181,6 +202,12 @@ $(document).ready(function () {
                         // $('#content img').attr('src', './assets/' + '书籍设计' + index + '.jpg');
                         $('#content img').attr('src', contentImgs[index - 1]);
                         myScroll.scrollTo(0, 0);
+
+                        if (index == 10) {
+                            $('#shareBtn').css('display', 'block');
+                        } else {
+                            $('#shareBtn').css('display', 'none');
+                        }
                         
                         setTimeout(() => {
                             myScroll.refresh();
