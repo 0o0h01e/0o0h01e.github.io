@@ -1,0 +1,11 @@
+#content {
+    overflow-y: scroll;
+}
+
+#content img {
+    width: 100%;
+}
+
+#showContainer {
+    position: relative;
+}

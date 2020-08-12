@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="referrer" content="no-referrer" />
+    <title>书籍设计可以拯救纸质书吗？</title>
+    <meta property="og:description" content="书籍设计可以拯救纸质书吗？">
+    <meta property="og:image" content="http://ww1.sinaimg.cn/large/a1823812gy1ghmxf87gd1j20ku112jtl.jpg">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.bootcss.com/PreloadJS/1.0.1/preloadjs.min.js"></script>
+</head>
+<body>
+    <div id="loading">
+        <div class="sp">
+            <div class="sp-loadbar"></div>
+            <p id="progress">0%</p>
+        </div>
+    </div>
+    <div class="container" style="display: none;">
+        <!-- 目录ICon -->
+        <div id="catalogIcon" style="display: none;">
+            <img src="../assets/catalog.png" alt="">
+        </div>
+
+        <!-- 音乐ICon -->
+        <div id="musicIcon" style="display: none;"></div>
+
+        <!-- Arrow ICon -->
+        <div id="arrowIcon">
+            <img src="../assets/arrow-up.png" alt="">
+        </div>
+
+        <!-- 首页封面 -->
+        <div id="cover">
+            
+        </div>
+
+        <!-- 目录页面 -->
+        <div id="catalog" style="display: none;">
+            <div class="row row-1">
+                <img src="../assets/目录切图/目录_01.jpg" index="1">
+            </div>
+            <div class="row row-2">
+                <img src="../assets/目录切图/目录_02.jpg" index="2">
+            </div>
+            <div class="row row-3">
+                <img src="../assets/目录切图/目录_03.jpg" index="3">
+                <img src="../assets/目录切图/目录_04.jpg" index="4">
+                <img src="../assets/目录切图/目录_05.jpg" index="5">
+            </div>
+            <div class="row row-4">
+                <img src="../assets/目录切图/目录_06.jpg" index="6">
+                <img src="../assets/目录切图/目录_07.jpg" index="7">
+            </div>
+            <div class="row row-5">
+                <img src="../assets/目录切图/目录_08.jpg" index="8">
+                <img src="../assets/目录切图/目录_09.jpg" index="9">
+                <img src="../assets/目录切图/目录_10.jpg" index="10">
+            </div>
+
+            <img src="../assets/close.png" id="closeIcon" style="display: none;" alt="" srcset="">
+        </div>
+
+        <!-- 内容展示 -->
+        <div id="content" style="display: none">
+            <div id="showContainer">
+                <img src='https://ww1.sinaimg.cn/large/a1823812gy1ghmo14e4khg20ku3r6n3k.jpg'>
+                <img src='https://ww1.sinaimg.cn/large/a1823812gy1ghm5bu2xqlj20ku1rvjyi.jpg'>
+                <img src='https://ww1.sinaimg.cn/large/a1823812gy1ghm5cvw3lsj20ku2osn69.jpg'>
+                <img src='https://ww1.sinaimg.cn/large/a1823812gy1ghm5d9qs84j20ku2cek28.jpg'>
+                <img src='https://ww1.sinaimg.cn/large/a1823812gy1ghm5dheddij20ku2hn7g2.jpg'>
+                <img src='https://ww1.sinaimg.cn/large/a1823812gy1ghm5drbv2ij20ku284tgd.jpg'>
+                <img src='https://ww1.sinaimg.cn/large/a1823812gy1ghm5e0x73tj20ku2kgn89.jpg'>
+                <img src='https://ww1.sinaimg.cn/large/a1823812gy1ghm5e8cvx7g20ku1i076r.jpg'>
+                <img src='https://ww1.sinaimg.cn/large/a1823812gy1ghm5efabw6g20ku1vqn05.jpg'>
+                <img src='https://ww1.sinaimg.cn/large/a1823812gy1ghmp9ba19pj20ku4fctpg.jpg'>
+                
+                <button id="shareBtn"></button>
+            </div>
+        </div>
+
+        <!-- 共享 -->
+        <div id="share" style="display: none;">
+
+        </div>
+    </div>
+
+    <script src="./main.js"></script>
+</body>
+</html>
